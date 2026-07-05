@@ -48,8 +48,8 @@ h1 {
 .image-caption {
     max-width: 900px;
     margin: 5px auto 60px auto;
-    text-align: right;
-    font-size: 17px;
+    text-align: center;
+    font-size: 10px;
     color: #666666;
     line-height: 1.2;
     font-style: italic;
