@@ -65,16 +65,14 @@ li {
 
 .image-ribbon {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
     width: 100%;
-    margin: 40px auto;
-
+    gap: 12px;
 }
 
 .image-ribbon img {
-    width: 260px;
-    height: 260px;
+    width: 19%;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 16px;
 }
