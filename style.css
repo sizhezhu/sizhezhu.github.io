@@ -66,3 +66,17 @@ li {
     font-size: 18px;
     margin-bottom: 8px;
 }
+
+.image-ribbon {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 40px;
+}
+
+.image-ribbon img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+}
