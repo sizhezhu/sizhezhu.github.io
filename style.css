@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    max-width: 900px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 40px 20px;
     line-height: 1.6;
@@ -14,21 +14,20 @@ nav {
 }
 
 nav a {
-    margin: 0 15px;
+    margin: 0 22px;
     text-decoration: none;
     color: #333333;
     font-weight: bold;
     font-size: 28px;
 }
 
+nav a:hover {
+    color: #666666;
+}
+
 .hero {
     text-align: center;
     margin-bottom: 80px;
-}
-
-h1 {
-    font-size: 52px;
-    margin-bottom: 10px;
 }
 
 .image-ribbon {
@@ -46,42 +45,81 @@ h1 {
 }
 
 .image-caption {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 5px auto 60px auto;
-    text-align: center;
-    font-size: 2px;
+    text-align: right;
+    font-size: 14px;
     color: #666666;
-    line-height: 1;
+    line-height: 1.2;
     font-style: italic;
 }
 
+h1 {
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
 h2 {
-    font-size: 30px;
+    font-size: 34px;
     margin-top: 50px;
-    border-bottom: 2px solid #dddddd;
-    padding-bottom: 8px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .interests {
     color: #666666;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.button {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 22px;
-    background-color: #333333;
-    color: white;
+ul {
+    font-size: 20px;
+}
+
+.date {
+    color: #777777;
+    font-size: 16px;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.page-intro {
+    color: #666666;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.blog-list {
+    margin-top: 30px;
+}
+
+.blog-preview {
+    padding: 25px 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+.blog-preview h2 {
+    margin-top: 0;
+}
+
+.blog-preview a {
+    color: #333333;
     text-decoration: none;
-    border-radius: 8px;
 }
 
-li {
-    font-size: 18px;
-    margin-bottom: 8px;
+.blog-preview a:hover {
+    color: #666666;
+}
+
+.read-more {
+    font-weight: bold;
+}
+
+.date {
+    color: #777777;
+    font-size: 16px;
 }

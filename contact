@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact | Sizhe Zhu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html#preface">About</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h1>Contact</h1>
+
+        <p>Email: zhufredsizhe@gmail.com</p>
+        <p>Phone: +65 9085 3884</p>
+    </main>
+
+</body>
+
+</html>
