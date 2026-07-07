@@ -123,3 +123,49 @@ main {
     color: #777777;
     font-size: 16px;
 }
+
+#preface {
+
+    max-width: 900px;
+
+    margin: 100px auto;
+
+}
+
+#preface h2 {
+
+    text-align: center;
+
+    font-size: 42px;
+
+    margin-bottom: 40px;
+
+}
+
+#preface p {
+
+    font-size: 20px;
+
+    line-height: 1.9;
+
+    margin-bottom: 30px;
+
+}
+
+.preface-list {
+
+    margin: 40px 0;
+
+    padding-left: 30px;
+
+}
+
+.preface-list li {
+
+    margin-bottom: 28px;
+
+    line-height: 1.9;
+
+    font-size: 20px;
+
+}
