@@ -54,6 +54,12 @@ nav a:hover {
     font-style: italic;
 }
 
+.cv-inline {
+    color: #444;
+    font-style: italic;
+    text-decoration: underline;
+}
+
 h1 {
     font-size: 64px;
     margin-bottom: 10px;
