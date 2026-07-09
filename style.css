@@ -55,9 +55,14 @@ nav a:hover {
 }
 
 .cv-inline {
-    color: #444;
+    color: #2b6cb0;      /* blue */
+    text-decoration: none; /* remove underline */
     font-style: italic;
-    text-decoration: underline;
+}
+
+.cv-inline:hover {
+    color: #1d4f91;      /* darker blue on hover */
+    text-decoration: underline; /* optional */
 }
 
 h1 {
