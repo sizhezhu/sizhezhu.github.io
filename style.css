@@ -76,6 +76,7 @@ p {
 ul {
     font-size: 20px;
     line-height: 1.7;
+    margin-bottom: 24px;
 }
 
 .date {
