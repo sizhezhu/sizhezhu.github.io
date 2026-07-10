@@ -202,39 +202,45 @@ main {
 }
 
 .projects-page {
-    max-width: 1250px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
-.project-section {
+.projects-page h1 {
+    font-size: 64px;
     margin-bottom: 70px;
 }
 
+.project-section {
+    margin-bottom: 65px;
+}
+
 .project-section h2 {
+    font-size: 34px;
     margin-bottom: 28px;
 }
 
 .project-note {
-    max-width: 1000px;
-    margin-bottom: 30px;
-
-    font-size: 0.9rem;      /* smaller than normal text */
+    max-width: 850px;
+    margin: 0 0 35px 0;
+    font-size: 16px;
     font-style: italic;
-    color: #666666;
-
+    color: #777777;
     line-height: 1.8;
 }
 
 .project-list {
-    padding-left: 32px;
+    padding-left: 28px;
 }
 
 .project-list li {
-    margin-bottom: 18px;
+    margin-bottom: 16px;
     line-height: 1.6;
+    font-size: 20px;
 }
 
-.project-list a {
+.project-list a,
+.project-list a:visited {
     color: #333333;
     text-decoration: none;
 }
@@ -245,6 +251,7 @@ main {
 }
 
 .project-status {
+    font-size: 17px;
     color: #777777;
     font-style: italic;
 }
