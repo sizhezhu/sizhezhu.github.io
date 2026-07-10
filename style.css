@@ -200,3 +200,74 @@ main {
     color: #666;
     border-color: #666;
 }
+
+.projects-page {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.project-section {
+    margin-bottom: 70px;
+}
+
+.project-section h2 {
+    margin-bottom: 28px;
+}
+
+.project-note {
+    max-width: 1100px;
+    margin-bottom: 35px;
+    font-style: italic;
+    line-height: 1.7;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.project-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+
+    padding: 16px 20px;
+
+    color: #333333;
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    transition:
+        background-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.project-item::before {
+    content: "–";
+    flex-shrink: 0;
+}
+
+.project-item:hover {
+    background-color: #eeeeee;
+    transform: translateX(5px);
+}
+
+.project-date {
+    flex-shrink: 0;
+    font-weight: 600;
+}
+
+.project-title {
+    line-height: 1.5;
+}
+
+.project-status {
+    margin-left: auto;
+    flex-shrink: 0;
+
+    color: #777777;
+    font-size: 16px;
+    font-style: italic;
+}
